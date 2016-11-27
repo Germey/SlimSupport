@@ -30,5 +30,5 @@ class Auth
 		}
 		return false;
 	}
-	
+
 }
