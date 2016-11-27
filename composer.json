@@ -1,0 +1,26 @@
+{
+  "name": "germey/support",
+  "description": "Base Classes of Slim",
+  "keywords": [
+    "slim",
+    "support"
+  ],
+  "homepage": "https://github.com/Germey/Support",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Germey",
+      "homepage": "http://github.com/Germey/"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "slim/slim": ">=3.0",
+    "illuminate/support": ">=5.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Germey\\Support\\": "src/"
+    }
+  }
+}
