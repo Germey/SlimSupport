@@ -31,7 +31,7 @@ class Validator extends Factory
 	{
 		$validator = $this->make($array, $rules, [], $attributes);
 		if ($validator->fails()) {
-			return $response->withJson($validator->errors(), 401)->withHeader('Access-Control-Allow-Origin', '*');;
+			return $response->withJson($validator->errors(), 401);
 		}
 		return false;
 	}
